@@ -1,0 +1,129 @@
+.boschmaisiy {
+    width: 100%;
+    height: 62vh;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.boschmaisiy_item {
+    width: 100%;
+    height: 60px;
+
+}
+.boschmaisiy_item>h1{
+    font-size: 26px;
+}
+.boschmaisiy_item>h1>a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.boschmaisiy_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.boschmaisiy_container::-webkit-scrollbar {
+    height: 0px;
+}
+
+.boschmaisiy_container_item>svg {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+}
+
+.boschmaisiy_container_item {
+    min-width: 162px;
+    height: 310px;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.boschmaisiy_container_item>p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.boschmaisiy_container_item>span {
+    font-size: 12px;
+    border: 1px solid rgb(255, 202, 72);
+    padding: 2px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 237, 194);
+}
+
+.boschmaisiy_container_item>p>s {
+    color: rgb(178, 189, 197);
+}
+
+.boschmaisiy_container_item>button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 190, 31);
+    font-size: 16px;
+}
+
+.boschmaisiy_container_item>button>svg {
+    margin-right: 5px;
+}
+
+.boschmaisiy_container_item>div {
+    background-color: rgb(244, 246, 247);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.boschmaisiy_container_item>div>img {
+    width: 70%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.boschmaisiy_container_item_narx {
+    position: absolute;
+    top: 27%;
+    left: 0;
+    gap: 10px;
+    height: 60px;
+
+}
+
+.boschmaisiy_container_item_narx>span {
+    background-color: rgb(255, 68, 68);
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: left;
+    color: white;
+
+    font-size: 14px;
+}
+
+.boschmaisiy_container_item_narx>p {
+    background-color: rgb(42, 139, 231);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.narx {
+    color: red;
+}

@@ -1,0 +1,115 @@
+.sevimli {
+    width: 1128px;
+    margin: 0 auto;
+    min-height: 70vh;
+}
+
+.aksiya_item {
+    width: 100%;
+    height: 60px;
+
+}
+
+.aksiya_item>h1>a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.aksiya_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.aksiya_container_item {
+    width: 162px;
+    /* height: 310px; */
+    position: relative;
+    /* padding: 5px; */
+}
+
+.aksiya_container_item>svg {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    z-index: 500;
+    color: red;
+}
+
+.aksiya_container_item>p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.aksiya_container_item>span {
+    font-size: 12px;
+    border: 1px solid rgb(255, 202, 72);
+    padding: 2px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 237, 194);
+}
+
+.aksiya_container_item>p>s {
+    color: rgb(178, 189, 197);
+}
+
+.aksiya_container_item>button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 190, 31);
+    font-size: 16px;
+}
+
+.aksiya_container_item>button>svg {
+    margin-right: 5px;
+}
+
+.aksiya_container_item>div {
+    border-radius: 8px;
+    background-color: rgb(244, 246, 247);
+}
+
+.aksiya_container_item>div>img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+}
+
+.aksiya_container_item_narx {
+    position: absolute;
+    top: 26%;
+    left: 0;
+    gap: 10px;
+    height: 60px;
+
+}
+
+.aksiya_container_item_narx>span {
+    background-color: rgb(255, 68, 68);
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: left;
+    color: white;
+
+    font-size: 14px;
+}
+
+.aksiya_container_item_narx>p {
+    background-color: rgb(42, 139, 231);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.narx {
+    color: red;
+}

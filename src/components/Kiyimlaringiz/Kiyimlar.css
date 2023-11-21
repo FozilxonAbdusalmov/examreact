@@ -1,0 +1,123 @@
+.kiyim{
+    width: 100%;
+    height: 64vh;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.kiyim_item {
+    width: 100%;
+    height: 60px;
+
+}
+.kiyim_item>h1{
+    font-size: 26px;
+}
+.kiyim_item>h1>a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.kiyim_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.kiyim_container::-webkit-scrollbar {
+    height: 0px;
+}
+
+.kiyim_container_item>svg {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 24px;
+}
+
+.kiyim_container_item {
+    min-width: 162px;
+    height: 310px;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: start;
+}
+
+.kiyim_container_item>p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.kiyim_container_item>span {
+    font-size: 12px;
+    border: 1px solid rgb(255, 202, 72);
+    padding: 2px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 237, 194);
+}
+
+.kiyim_container_item>p>s {
+    color: rgb(178, 189, 197);
+}
+
+.kiyim_container_item>button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 190, 31);
+    font-size: 16px;
+}
+
+.kiyim_container_item>button>svg {
+    margin-right: 5px;
+}
+
+.kiyim_container_item>div {
+    background-color: rgb(244, 246, 247);
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kiyim_container_item>div>img {
+    width: 70%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.kiyim_container_item_narx {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    gap: 10px;
+    height: 60px;
+
+}
+
+.kiyim_container_item_narx>p {
+    background-color: rgb(42, 139, 231);
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.kiyim_narx {
+    color: gray;
+}

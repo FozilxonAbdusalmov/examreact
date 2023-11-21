@@ -1,0 +1,49 @@
+.Card {
+    width: 1128px;
+    margin: 0 auto;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.Card>h1 {
+    font-size: 30px;
+
+}
+
+.Card>p {
+    font-size: 16px;
+    width: 340px;
+    text-align: center;
+    color: rgb(93, 109, 125);
+}
+
+.Card>button {
+    width: 320px;
+    height: 51.2px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 190, 31);
+    transition: .2s;
+}
+
+.Card>button:hover {
+    background-color: rgb(252, 203, 81);
+}
+
+.Card>button:nth-child(4) {
+    background-color: white;
+    border: 1px solid rgb(93, 109, 125);
+    box-shadow: 0 0 5px gray;
+    transition: .2s;
+}
+
+.Card>button:nth-child(4):hover {
+    background-color: rgb(240, 237, 237);
+
+}
